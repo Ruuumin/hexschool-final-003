@@ -145,7 +145,7 @@ img {
 
 header {
   display: block;
-  background: url("img/header_desktop@2x.png") no-repeat;
+  background: url("/img/header_desktop@2x.png") no-repeat;
   background-position: center;
   background-size: 1024px 420px;
   padding-bottom: 4.5rem;
@@ -165,7 +165,7 @@ header {
   display: block;
   width: 120px;
   height: 24px;
-  background: url("img/logo_w@svg.svg") no-repeat;
+  background: url("/img/logo_w@svg.svg") no-repeat;
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
@@ -220,7 +220,7 @@ header {
     display: block
   }
   header{
-    background-image: url('img/header_mobile.png');
+    background-image: url('/img/header_mobile.png');
     background-size: cover;
   }
 }
@@ -424,7 +424,7 @@ header {
   justify-content: end;
   align-items: end;
 }
-.cancel, .submit{
+.cancel, .shopform-submit{
   font-size: 14px;
   color: #FFFFFF;
   border-radius: 3px;
@@ -436,7 +436,7 @@ header {
   background: rgba(0,0,0,0.35);
   margin-right: 1rem;
 }
-.submit{
+.shopform-submit{
   background: #F56C23;
 }
 /* index-main end */
@@ -466,7 +466,7 @@ main{
   display: block;
   width: 243px;
   height: 48px;
-  background: url(img/logo_l@svg.svg) no-repeat;
+  background: url(/img/logo_l@svg.svg) no-repeat;
   text-indent: 1000%;
   overflow: hidden;
   white-space: nowrap;
